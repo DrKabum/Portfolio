@@ -1,0 +1,29 @@
+.navbar {
+    position: absolute;
+    text-align: left;
+    z-index: -10;
+    top: -150%;
+    left: 0;
+    background-color: var(--yellow);
+    width: 100%;
+    transition: top 800ms ease-in-out 100ms;
+}
+
+.nav-link-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@media (min-width: 450px) {
+    .nav-link-container {
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        max-width: 800px;
+    }
+}
+
+.nav-toggled {
+    top: 100%;
+}

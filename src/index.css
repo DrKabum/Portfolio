@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #fbbbad;
+    --red: #ee8695;
+    --light-blue: #4a7a96;
+    --dark-blue: #333f58;
+    --bg-black: #292831;
+}
+
+body {
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;
+    background: var(--bg-black);
+}
+
+img {
+    max-width: 100%;
+}
