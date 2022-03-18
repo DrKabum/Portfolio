@@ -15,17 +15,17 @@ Hero.SubContainer = function HeroSubContainer({children, ...props}) {
   )
 }
 
-Hero.ColumnContainer = function HeroColumnContainer({children, ...props}) {
+Hero.ColumnContainer = function HeroColumnContainer({children, small=false, ...props}) {
   return (
     <div className='hero-column-outter-container'>
-      <div className='hero-column-container' {...props}>{children}</div>
+      <div className={`${small ? 'hero-small-column-container': 'hero-column-container'}`} {...props}>{children}</div>
     </div>
   )
 }
 
-Hero.Column = function HeroColumn({children, ...props}) {
+Hero.Column = function HeroColumn({children, spanAllRow=false, ...props}) {
   return (
-    <div className='hero-column' {...props}>{children}</div>
+    <div className={`hero-column ${spanAllRow ? 'all-row' : ''}`} {...props}>{children}</div>
   )
 }
 

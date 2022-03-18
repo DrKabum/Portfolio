@@ -11,13 +11,26 @@
 }
 
 .hero-column-outter-container {
+    width: 100%;
     max-width: 1000px;
 }
 
-.hero-column-container {
+.hero-column-container,
+.hero-small-column-container {
     display: grid;
     gap: 1.5em;
+}
+
+.hero-column-container {
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+}
+
+.hero-small-column-container {
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+}
+
+.all-row {
+    grid-column: 1/-1;
 }
 
 .hero-title {
@@ -37,6 +50,11 @@
 
 .hero-text {
     font-size: var(--fs-400);
+    margin-bottom: 1em;
+}
+
+.centered {
+    text-align: center;
 }
 
 .hero:nth-child(odd) p {

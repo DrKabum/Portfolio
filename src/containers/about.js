@@ -1,5 +1,6 @@
 import React from 'react'
 import { Hero } from '../components'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function About() {
     return (
@@ -8,24 +9,40 @@ export default function About() {
                 <Hero.Column>
                     <Hero.MainTitle>From Nursing to Web Dev</Hero.MainTitle>
                     <Hero.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor neque vitae tempus quam pellentesque. Senectus et netus et malesuada fames ac turpis. Risus quis varius quam quisque id diam vel. Et ultrices neque ornare aenean euismod. Purus sit amet luctus venenatis lectus. Cursus metus aliquam eleifend mi. Facilisis sed odio morbi quis commodo odio aenean sed. Mattis pellentesque id nibh tortor id aliquet lectus. Adipiscing elit duis tristique sollicitudin nibh sit amet. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Diam quam nulla porttitor massa id neque.
-
-    Neque laoreet suspendisse interdum consectetur libero id faucibus. Lectus proin nibh nisl condimentum id. Eu consequat ac felis donec et odio pellentesque diam volutpat. Tellus id interdum velit laoreet id donec ultrices tincidunt. Id donec ultrices tincidunt arcu non sodales neque sodales. Tempus urna et pharetra pharetra. Nibh ipsum consequat nisl vel pretium lectus quam id. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Leo integer malesuada nunc vel risus commodo viverra. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Duis ultricies lacus sed turpis. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Arcu dictum varius duis at. Ante metus dictum at tempor commodo ullamcorper a lacus. Velit scelerisque in dictum non consectetur a. Ut diam quam nulla porttitor massa id neque. Sem fringilla ut morbi tincidunt augue interdum velit euismod in.
+                        I spent 10 years working as a nurse in the world. I worked a lot in France in a special unit called SAMU, which stands for Emergency Medical Service in french. I spent most of my time working there, but I also worked for an international NGO called Doctors Without Borders for a couple of years, where I was a headnurse (doing operational and HR management) on the field in Haîti, Nigeria and South Sudan.
                     </Hero.Text>
                     <Hero.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor neque vitae tempus quam pellentesque. Senectus et netus et malesuada fames ac turpis. Risus quis varius quam quisque id diam vel. Et ultrices neque ornare aenean euismod. Purus sit amet luctus venenatis lectus. Cursus metus aliquam eleifend mi. Facilisis sed odio morbi quis commodo odio aenean sed. Mattis pellentesque id nibh tortor id aliquet lectus. Adipiscing elit duis tristique sollicitudin nibh sit amet. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Diam quam nulla porttitor massa id neque.
-
-    Neque laoreet suspendisse interdum consectetur libero id faucibus. Lectus proin nibh nisl condimentum id. Eu consequat ac felis donec et odio pellentesque diam volutpat. Tellus id interdum velit laoreet id donec ultrices tincidunt. Id donec ultrices tincidunt arcu non sodales neque sodales. Tempus urna et pharetra pharetra. Nibh ipsum consequat nisl vel pretium lectus quam id. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Leo integer malesuada nunc vel risus commodo viverra. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Duis ultricies lacus sed turpis. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Arcu dictum varius duis at. Ante metus dictum at tempor commodo ullamcorper a lacus. Velit scelerisque in dictum non consectetur a. Ut diam quam nulla porttitor massa id neque. Sem fringilla ut morbi tincidunt augue interdum velit euismod in.
+                        But since my childhood, I've been practicing programming, as a hobby! I've always loved that and over the years, I particularly trained for web development.
+                    </Hero.Text>
+                    <Hero.Text>
+                        If you're interested, check my projects, you'll see I even used that skill when I was working for a hospital in France!
                     </Hero.Text>
                 </Hero.Column>
                 <Hero.Column>
-                    <Hero.MainTitle>From Nursing to Web Dev</Hero.MainTitle>
+                    <Hero.MainTitle>
+                        Now, it's time to go pro
+                    </Hero.MainTitle>
                     <Hero.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor neque vitae tempus quam pellentesque. Senectus et netus et malesuada fames ac turpis. Risus quis varius quam quisque id diam vel. Et ultrices neque ornare aenean euismod. Purus sit amet luctus venenatis lectus. Cursus metus aliquam eleifend mi. Facilisis sed odio morbi quis commodo odio aenean sed. Mattis pellentesque id nibh tortor id aliquet lectus. Adipiscing elit duis tristique sollicitudin nibh sit amet. Porttitor rhoncus dolor purus non enim praesent elementum facilisis. Diam quam nulla porttitor massa id neque.
-
-    Neque laoreet suspendisse interdum consectetur libero id faucibus. Lectus proin nibh nisl condimentum id. Eu consequat ac felis donec et odio pellentesque diam volutpat. Tellus id interdum velit laoreet id donec ultrices tincidunt. Id donec ultrices tincidunt arcu non sodales neque sodales. Tempus urna et pharetra pharetra. Nibh ipsum consequat nisl vel pretium lectus quam id. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Leo integer malesuada nunc vel risus commodo viverra. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Duis ultricies lacus sed turpis. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Arcu dictum varius duis at. Ante metus dictum at tempor commodo ullamcorper a lacus. Velit scelerisque in dictum non consectetur a. Ut diam quam nulla porttitor massa id neque. Sem fringilla ut morbi tincidunt augue interdum velit euismod in.
+                        Something huge happened : I moved from France to Australia, to live there with my wife (she's an Aussie!). I felt it was the opportunity to not only change hemisphere, but my career too!
                     </Hero.Text>
-                </Hero.Column>                
+                    <Hero.Text>
+                        So, it's happening : I arrived recently, and now I'm working on getting hired. I know, it's a big deal, both for me than for my futur employer, but hey, you're here to check what I can do, so here we go.
+                    </Hero.Text>
+                </Hero.Column>
+            </Hero.ColumnContainer>
+            <Hero.ColumnContainer small={true}>
+                <Hero.Column style={{textAlign: 'center'}}>
+                    <FontAwesomeIcon icon="fa-brands fa-js" size="6x"/>
+                </Hero.Column>
+                <Hero.Column style={{textAlign: 'center'}}>
+                    <FontAwesomeIcon icon="fa-brands fa-html5" size="6x"/>
+                </Hero.Column>
+                <Hero.Column style={{textAlign: 'center'}}>
+                    <FontAwesomeIcon icon="fa-brands fa-css3" size="6x" />
+                </Hero.Column>
+                <Hero.Column style={{textAlign: 'center'}}>
+                    <FontAwesomeIcon icon="fa-brands fa-react" size="6x" />
+                </Hero.Column>
             </Hero.ColumnContainer>
         </Hero>
     )
