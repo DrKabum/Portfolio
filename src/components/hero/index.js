@@ -1,9 +1,9 @@
 import React from 'react'
 import './hero.css'
 
-export default function Hero({children, ...props}) {
+export default function Hero({children, id, ...props}) {
   return (
-    <section className="hero" {...props}>
+    <section id={id} className="hero" {...props}>
       {children}
     </section>
   )
@@ -57,6 +57,6 @@ Hero.SubTitle = function SubTitle({children, ...props}) {
 
 Hero.Code = function HeroCode({children, style, ...props}) {
   return (
-    <p className='hero-code' {...props}>{children}</p>
+    <p className='hero-code' {...props}>> {children}<span className='carret'>|</span></p>
   )
 }
