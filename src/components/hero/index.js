@@ -9,20 +9,24 @@ export default function Hero({children, id, ...props}) {
   )
 }
 
-Hero.GroupContainer = function FlexContainer({children, direction="column", ...props}) {
-  return(
-    <div className={direction === "row" ? 'flex-row' : 'flex-column'} {...props}>
-      {children}
+Hero.SubContainer = function HeroSubContainer({children, ...props}) {
+  return (
+    <div className='hero-container' {...props}>{children}</div>
+  )
+}
+
+Hero.ColumnContainer = function HeroColumnContainer({children, ...props}) {
+  return (
+    <div className='hero-column-outter-container'>
+      <div className='hero-column-container' {...props}>{children}</div>
     </div>
   )
 }
 
-Hero.Column = function Column({children, ...props}) {
-    return (
-      <article className='hero-column' {...props}>
-        {children}
-      </article>
-    )
+Hero.Column = function HeroColumn({children, ...props}) {
+  return (
+    <div className='hero-column' {...props}>{children}</div>
+  )
 }
 
 Hero.Title = function HeroTitle({children, ...props}) {
@@ -57,6 +61,12 @@ Hero.SubTitle = function SubTitle({children, ...props}) {
 
 Hero.Code = function HeroCode({children, style, ...props}) {
   return (
-    <p className='hero-code' {...props}>> {children}<span className='carret'>|</span></p>
+    <p className='hero-code' {...props}>{`> ${children}`}<span className='carret'>|</span></p>
+  )
+}
+
+Hero.Text = function HeroText({children, ...props}) {
+  return (
+    <p className='hero-text' {...props}>{children}</p>
   )
 }
