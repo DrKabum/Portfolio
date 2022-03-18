@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './containers/header'
+import Home from './containers/home'
 import './app.css'
 
 
@@ -7,9 +8,7 @@ export default function App() {
   return (
     <>
       <Header/>
-      <article>
-        <h1>COUCOU</h1>
-      </article>
+      <Home/>
     </>
   )
 }

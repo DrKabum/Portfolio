@@ -1,0 +1,49 @@
+section {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+.hero-title {
+    color: var(--text-white);
+    font-size: var(--fs-xl);
+    font-weight: 600;
+    text-align: center;
+    margin: 0 .5em;
+    margin-bottom: .5em;
+}
+
+.hero-em {
+    position: relative;
+}
+
+.hero-em::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 80%;
+    top: 0;
+    left: 10%;
+    background: var(--red);
+    z-index: -1;
+    transform: skew(-15deg, -3deg);
+}
+
+.flex-column,
+.flex-row {
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.hero-code {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: var(--fs-500);
+    text-align: center;
+    margin: 0 .7em;
+}
