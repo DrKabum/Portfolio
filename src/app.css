@@ -1,22 +1,3 @@
-header {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    background-color: var(--yellow);
-    text-align: center;
-}
-
-.logo-img {
-    margin: 1em;
-    height: 4em;
-    transform: rotate(0deg);
-    transition: transform ease-in-out 800ms;
-}
-
-.logo-reversed {
-    transform: rotate(calc(180deg + 2*360deg));
-}
-
 article {
     height: 120vh;
     display: flex;
