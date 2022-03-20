@@ -26,7 +26,13 @@
 }
 
 .hero-small-column-container {
-    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    grid-template-columns: repeat(2, minmax(5em, 1fr));
+}
+
+@media (min-width: 30em) {
+    .hero-small-column-container {
+        grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    }
 }
 
 .all-row {
@@ -46,6 +52,10 @@
     font-size: var(--fs-600);
     color: var(--text-white);
     margin-bottom: 1em;
+}
+
+.hero-sub-title {
+    color: var(--text-white);
 }
 
 .hero-text {

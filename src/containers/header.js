@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import { Navbar } from '../components'
+import { NAV_TOGGLE_WIDTH } from '../constants/style-constants'
 import useWindowDimensions from '../hooks/useWindowDimensions'
 import logo from '../../public/img/logo.png'
 import './header.css'
 
 export default function Header() {
-    const NAV_TOGGLE_WIDTH = 450
     const {width} = useWindowDimensions()
     const [navToggled, setNavToggled] = useState(width > NAV_TOGGLE_WIDTH)
 

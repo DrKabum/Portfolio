@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <Hero id="home">
             <Hero.SubContainer>
-                <Hero.Title>Hi, It's <Hero.Em>Nicolas Broca</Hero.Em></Hero.Title>
+                <Hero.Title>Hi, I'm <Hero.Em>Nicolas Broca</Hero.Em></Hero.Title>
                 <Hero.Code>I'm a junior web dev</Hero.Code>
             </Hero.SubContainer>
         </Hero>
