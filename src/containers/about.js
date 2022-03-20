@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function About() {
     return (
         <Hero id="about">
+            <Hero.Title>Who I am</Hero.Title>
             <Hero.SubContainer>
                 <Hero.ColumnContainer>
                     <Hero.Column>

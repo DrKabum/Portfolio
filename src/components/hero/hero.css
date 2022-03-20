@@ -1,7 +1,6 @@
 .hero {
     min-height: 100vh;
-    padding: 1em;
-    padding-top: 9.5em;
+    padding: 8em 1em;
     display: grid;
     place-items: center;
 }
@@ -50,12 +49,12 @@
 
 .hero-main-title {
     font-size: var(--fs-600);
-    color: var(--text-white);
+    color: var(--yellow);
     margin-bottom: 1em;
 }
 
 .hero-sub-title {
-    color: var(--text-white);
+    color: var(--dark-blue);
 }
 
 .hero-text {
@@ -106,7 +105,7 @@
     0% {
         opacity: 1;
     }
-    60% {
+    70% {
         opacity: 1;
     }
     100% {
