@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300;400;700&display=swap');
 
 *,
 *::before,
@@ -13,6 +13,21 @@
     --light-blue: #4a7a96;
     --dark-blue: #333f58;
     --bg-black: #292831;
+    --text-white: #eaeaea;
+
+    /* font sizes */
+    --fs-600: 1.3rem;
+    --fs-500: clamp(1.2rem, 2.3vw + 1rem, 2rem);
+    --fs-400: 1rem;
+    --fs-xl: clamp(1.5rem, 6vw + 1rem, 5rem);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding-top: 7em;
 }
 
 body {
