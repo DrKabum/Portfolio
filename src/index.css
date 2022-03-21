@@ -26,6 +26,10 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    padding-top: 7em;
+}
+
 body {
     font-size: 16px;
     text-rendering: optimizeLegibility;

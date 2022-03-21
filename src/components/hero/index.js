@@ -70,3 +70,9 @@ Hero.Text = function HeroText({children, ...props}) {
     <p className='hero-text' {...props}>{children}</p>
   )
 }
+
+Hero.Link = function HeroLink({children, hoverClass='', href, ...props}) {
+  return (
+    <a href={href} className={`hero-link ${hoverClass}`} {...props}>{children}</a>
+  )
+}

@@ -7,10 +7,15 @@ import './index.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import {
-    faEarthAsia
+    faEarthAsia,
+    faAt
 } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faEarthAsia)
+library.add(
+    fab, 
+    faEarthAsia, 
+    faAt
+)
 
 ReactDOM.render(
     <BrowserRouter>
