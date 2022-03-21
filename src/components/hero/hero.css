@@ -5,6 +5,11 @@
     place-items: center;
 }
 
+.hero {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 81%, rgba(1,105,128,1) 100%); 
+}
+
 .hero:nth-child(even) {
     background: var(--light-blue);
 }
