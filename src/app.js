@@ -19,7 +19,7 @@ export default function App() {
           <Route path="*" element={
             <Hero>
               <Hero.SubContainer>
-              <p style={{color: 'white'}}>Error 404 : the page requested doesn't exist... And by the way, sorry but this page is a work in progress</p>    
+              <p>Error 404 : the page requested doesn't exist... And by the way, sorry but this page is a work in progress</p>    
               </Hero.SubContainer>
             </Hero>
           } />
