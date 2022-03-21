@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 import './navbar.css'
 
 export default function Navbar({children, ...props}) {
@@ -11,10 +12,10 @@ export default function Navbar({children, ...props}) {
   )
 }
 
-Navbar.Link = function NavbarLink({children, ...props}) {
+Navbar.Link = function NavbarLink({children, to, ...props}) {
   return (
-    <li className='nav-li'>
+    <Link to={to} className='nav-li'>
         <a className='nav-a' {...props}>{children}</a>
-    </li>
+    </Link>
   )
 }

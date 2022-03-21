@@ -10,7 +10,7 @@
 
 .card-container:hover,
 .card-container:focus {
-    box-shadow: 0 0 2em black;
+    box-shadow: 0 0 1em var(--light-blue);
 }
 
 .card-title {
