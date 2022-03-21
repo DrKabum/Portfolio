@@ -16,7 +16,7 @@
 
 .hero-column-outter-container {
     width: 100%;
-    max-width: 1000px;
+    max-width: var(--max-width);
 }
 
 .hero-column-container,

@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
 import { Hero, Card } from '../components'
 import { getProjects } from '../data/projects-data'
 import { Link } from 'react-router-dom'
@@ -19,7 +20,7 @@ export default function Projects() {
                 </Card.Title>
                 <Card.Preview src={project.preview} alt={`a snapshot of ${project.title}`} />
                 <Card.Description>
-                  {project.description}
+                    {project.description}
                 </Card.Description>
               </Link>
             </Card>

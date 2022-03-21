@@ -15,7 +15,7 @@ export default function Navbar({children, ...props}) {
 Navbar.Link = function NavbarLink({children, to, ...props}) {
   return (
     <Link to={to} className='nav-li'>
-        <a className='nav-a' {...props}>{children}</a>
+        <p className='nav-a' {...props}>{children}</p>
     </Link>
   )
 }

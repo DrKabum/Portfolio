@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Home from './pages/home'
 import Header from './containers/header'
+import Project from './pages/project'
 
 
 import './app.css'
@@ -16,6 +17,7 @@ export default function App() {
       <main id='home'>
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/projects/:id" element={<Project/>} />
           <Route path="*" element={
             <Hero>
               <Hero.SubContainer>

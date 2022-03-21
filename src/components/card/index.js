@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
 import './card.css'
 
 export default function Card({children, ...props}) {
@@ -31,6 +32,6 @@ Card.Link = function CardLink({href, children, ...props}) {
 
 Card.Description = function CardDescription({children, ...props}) {
     return (
-        <p className='card-description' {...props}>{children}</p>
+        <ReactMarkdown className='card-description' {...props}>{children}</ReactMarkdown>
     )
 }

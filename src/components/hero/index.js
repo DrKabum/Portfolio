@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactMarkdown from 'react-markdown'
 import './hero.css'
 
 export default function Hero({children, id, ...props}) {
@@ -67,7 +68,7 @@ Hero.Code = function HeroCode({children, style, ...props}) {
 
 Hero.Text = function HeroText({children, ...props}) {
   return (
-    <p className='hero-text' {...props}>{children}</p>
+    <ReactMarkdown className='hero-text' {...props}>{children}</ReactMarkdown>
   )
 }
 
