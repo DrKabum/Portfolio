@@ -6,5 +6,6 @@ It's all React. I'm using functional components, hooks, even custom ones and my 
 
 # Other libraries
 A this time of development, I'm using :
+* [React Router](https://github.com/remix-run/react-router) : a routing library for React.
 * [uuid](https://github.com/uuidjs/uuid) : For the creation of [RFC4122](https://www.ietf.org/rfc/rfc4122.txt) UUIDs. Useful to create strong random numbers for `key` of some elements, and maybe later on for strong cryptographically random values.
 * [FontAwesome for React](https://fontawesome.com/v5/docs/web/use-with/react) : Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators.
