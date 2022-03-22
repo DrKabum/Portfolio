@@ -34,6 +34,8 @@ Project.Text = function ProjectText({children, ...props}) {
 
 Project.Link = function ProjectLink({children, href, ...props}) {
     return (
-        <a className="project-link" href={href} {...props}>{children}</a>
+        href ?
+            <a className="project-link" href={href} {...props}>{children}</a> :
+            null
     )
 }
