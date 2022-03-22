@@ -13,7 +13,7 @@ export default function ProjectPage() {
     <Project>
       <Project.Title>{project.title}</Project.Title>
       <Project.Preview src={project.preview} alt={project.title}>
-        {project.description}
+        {project.caption}
       </Project.Preview>
       {project.articleParagraphs.map((p) => {
         return <Project.Text key={uuidv4()}>{p}</Project.Text>

@@ -4,6 +4,7 @@ const projects = [
     id: 1,
     link: 'https://codepen.io/Kabum/pen/oNZrpyN',
     preview: 'https://codepen.io/Kabum/pen/oNZrpyN/image/large.png',
+    caption: 'Coolest watch ever!',
     description:
       "This clock looks weird, isn't it? Does it *actually* display time? Well, yes. But it's binary.",
     articleParagraphs: [
@@ -23,6 +24,7 @@ const projects = [
     link: 'https://codepen.io/Kabum/pen/BaLgaqB',
     preview: 'https://codepen.io/Kabum/pen/BaLgaqB/image/large.png',
     description: 'You think you type fast ? Go ahead and have a try.',
+    caption: 'I love this pixel-art font',
     articleParagraphs: [
       '## I like coding mini games',
       "At the start of my training in frontend development, I really enjoyed developping mini games like this one. I find it very interesting as from the most simplest idea, usually comes the need to implement so kind of tricky algorithm (like, the game's logic itself, or some kind of fancy scoring systems, etc). I think the idea for this one came from a course made in my bootcamp on Scrimba.com. The course only taught us how to type text in a limited amount of time, and count it. I was happy to learn how to do that, but after a while I was thinking that it would be interesting to make that game more *clever* or at least more challenging.",
@@ -39,6 +41,7 @@ const projects = [
     id: 3,
     link: 'https://codepen.io/Kabum/pen/OJmPYJL',
     preview: 'https://codepen.io/Kabum/pen/OJmPYJL/image/large.png',
+    caption: 'It looks simple, but this concept has an incredible depth',
     description:
       'My version of the famous Game of life. I could spend hours watching those cells come to life.',
     articleParagraphs: [
@@ -61,6 +64,8 @@ const projects = [
     link: null,
     preview: 'https://i.ibb.co/2ZGr7Nv/novilog.png',
     description: 'An app made from scratch to manage disasters',
+    caption:
+      "The dashboard view with a quick summary of the (test) operation (sorry it's in french!)",
     articleParagraphs: [
       '# The story of a dev nurse',
       "It all started from a simple observation when I was working as a nurse. See, I was working in a particular kind of unit : prehospital care. Depending on where you're from, this kind of unit might work differently, but in France, like in most places, they are the ones going out on emergency calls, for medical problems, normally in case of vital emergency, to help people before bringing them to hospital. But there is another responsability for these people: be ready to manage **big scale disasters** like big fires, multiple cars accidents, up to a plane crash or a terrorist attack.",
