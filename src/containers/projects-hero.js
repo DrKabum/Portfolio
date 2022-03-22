@@ -13,8 +13,8 @@ export default function Projects() {
         <Hero.Title>Some of my work</Hero.Title>
         <Hero.ColumnContainer>
           {projects.map(project => (
-            <Card key={project.id}>
-              <Link to={`/projects/${project.id}`}>
+            <Link className='card-link' to={`/projects/${project.id}`}>
+              <Card key={project.id}>
                 <Card.Title>
                   {project.title}
                 </Card.Title>
@@ -22,8 +22,8 @@ export default function Projects() {
                 <Card.Description>
                     {project.description}
                 </Card.Description>
-              </Link>
-            </Card>
+              </Card>
+            </Link>
           ))}
         </Hero.ColumnContainer>
       </Hero.SubContainer>

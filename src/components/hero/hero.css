@@ -96,6 +96,7 @@
     text-decoration: none;
     color: inherit;
     transition: color 200ms ease-in-out;
+    display: block;
 }
 
 .github:hover,

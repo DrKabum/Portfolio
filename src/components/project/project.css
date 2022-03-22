@@ -51,6 +51,7 @@ figcaption {
 .project-link:focus {
     background-color: var(--red);
     color: var(--bg-black);
+    text-decoration: none;
 }
 
 code {

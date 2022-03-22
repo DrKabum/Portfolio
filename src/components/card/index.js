@@ -20,7 +20,9 @@ Card.Title = function CardTitle({children, ...props}) {
 
 Card.Preview = function CardPreview({src, alt, ...props}) {
     return (
-        <img className='card-preview' src={src} alt={alt} {...props}/>
+        <div className='card-preview-container'>
+            <img className='card-preview' src={src} alt={alt} {...props}/>
+        </div>
     )
 }
 
