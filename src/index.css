@@ -38,7 +38,13 @@ html {
 }
 
 main {
-  padding-top: 7em;
+  padding-top: 6.45em;
+}
+
+@media (min-width: 500px) {
+  main {
+    padding-top: 7em;
+  }
 }
 
 body {
