@@ -5,7 +5,14 @@
 }
 
 .project-preview {
-    
+    object-fit: cover;
+    border: 4px solid var(--light-blue);
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+.project-title {
+    margin: 2em 0;
 }
 
 .project-text {
@@ -13,4 +20,23 @@
     font-weight: 400;
     text-align: left;
     margin-bottom: 1em;
+    color: var(--text-white);
+}
+
+figcaption {
+    margin: -1em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    color: var(--yellow);
+    text-align: center;
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    font-style: italic;
+    margin-bottom: 3em;
+}
+
+code {
+    background-color: black;
+    border-radius: 5px;
+    padding: .03em .4em;
 }

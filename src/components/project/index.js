@@ -13,13 +13,16 @@ export default function Project({children, ...props}) {
 
 Project.Title = function ProjectTitle({children, ...props}) {
     return (
-        <h1 className='hero-title' {...props}>{children}</h1>
+        <h1 className='hero-title project-title' {...props}>{children}</h1>
     )
 }
 
-Project.Preview = function ProjectPreview({src, alt, ...props}) {
+Project.Preview = function ProjectPreview({src, alt, children, ...props}) {
     return (
-        <img className='project-preview' {...props} src={src} alt={alt} />
+        <>
+            <img className='project-preview' {...props} src={src} alt={alt} />
+            <figcaption>{children}</figcaption>
+        </>
     )
 }
 
