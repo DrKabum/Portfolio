@@ -65,7 +65,7 @@ const projects = [
     preview: 'https://i.ibb.co/2ZGr7Nv/novilog.png',
     description: 'An app made from scratch to manage disasters',
     caption:
-      "The dashboard view with a quick summary of the operation (sorry it's in french!)",
+      "The dashboard view with a quick summary of the (test) operation (sorry it's in french!)",
     articleParagraphs: [
       '# The story of a dev nurse',
       "It all started from a simple observation when I was working as a nurse. See, I was working in a particular kind of unit : prehospital care. Depending on where you're from, this kind of unit might work differently, but in France, like in most places, they are the ones going out on emergency calls, for medical problems, normally in case of vital emergency, to help people before bringing them to hospital. But there is another responsability for these people: be ready to manage **big scale disasters** like big fires, multiple cars accidents, up to a plane crash or a terrorist attack.",
