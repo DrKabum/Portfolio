@@ -14,8 +14,10 @@ export default function Navbar({children, ...props}) {
 
 Navbar.Link = function NavbarLink({children, to, ...props}) {
   return (
-    <Link to={to} className='nav-li'>
-        <p className='nav-a' {...props}>{children}</p>
-    </Link>
+    <li className='nav-li'>
+      <Link to={to} className='nav-a' {...props}>
+          {children}
+      </Link>
+    </li>
   )
 }

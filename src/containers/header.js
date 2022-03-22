@@ -22,10 +22,10 @@ export default function Header() {
         <header>
             <img onClick={toggleNav} className={`logo-img ${navToggled && width <= NAV_TOGGLE_WIDTH ? 'logo-reversed' : ''}`} src={logo} alt='Nicolas Broca logo' /> 
             <Navbar className={`navbar ${navToggled ? 'nav-toggled' : ''}`}>
-                <Navbar.Link to='/#home'>Home</Navbar.Link>
-                <Navbar.Link to='/#about'>About</Navbar.Link>
-                <Navbar.Link to='/#projects'>Projects</Navbar.Link>
-                <Navbar.Link to='/#contacts'>Contacts</Navbar.Link>
+                <Navbar.Link onClick={toggleNav} to='/#home'>Home</Navbar.Link>
+                <Navbar.Link onClick={toggleNav} to='/#about'>About</Navbar.Link>
+                <Navbar.Link onClick={toggleNav} to='/#projects'>Projects</Navbar.Link>
+                <Navbar.Link onClick={toggleNav} to='/#contacts'>Contacts</Navbar.Link>
             </Navbar>
         </header>
     )

@@ -28,7 +28,7 @@ export default function Contacts() {
                 </Hero.Link>
             </Hero.Column>
         </Hero.ColumnContainer>
-        <Hero.Text>I'd be happy to share with you more information, answer some question you might have, or just have a chat!</Hero.Text>
+        <Hero.Text style={{textAlign: 'center'}}>I'd be happy to share with you more information, answer some question you might have, or just have a chat!</Hero.Text>
     </Hero>
   )
 }

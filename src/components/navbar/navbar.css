@@ -1,9 +1,9 @@
 .navbar {
     position: absolute;
     text-align: left;
-    z-index: -10;
     top: -150%;
     left: 0;
+    z-index: -1;
     background-color: var(--yellow);
     width: 100%;
     transition: top 800ms ease-in-out 100ms;
