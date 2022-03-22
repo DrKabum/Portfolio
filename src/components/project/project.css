@@ -35,6 +35,24 @@ figcaption {
     margin-bottom: 3em;
 }
 
+.project-link {
+    text-decoration: none;
+    display: block;
+    background: var(--light-blue);
+    text-align: center;
+    padding: 1em;
+    color: var(--text-white);
+    margin: 3em 0;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.project-link:hover,
+.project-link:focus {
+    background-color: var(--red);
+    color: var(--bg-black);
+}
+
 code {
     background-color: black;
     border-radius: 5px;
