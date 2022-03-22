@@ -7,10 +7,10 @@ import Contacts from '../containers/contact-hero'
 export default function home() {
   return (
     <>
-        <Home/>
-        <About/>
-        <Projects/>
-        <Contacts />
+      <Home />
+      <About />
+      <Projects />
+      <Contacts />
     </>
   )
 }

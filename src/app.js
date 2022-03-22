@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
@@ -12,12 +13,12 @@ export default function App() {
   return (
     <>
       <Header />
-      <main id="home">
+      <main id='home'>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects/:id" element={<Project />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/projects/:id' element={<Project />} />
           <Route
-            path="*"
+            path='*'
             element={
               <Hero>
                 <Hero.SubContainer>
