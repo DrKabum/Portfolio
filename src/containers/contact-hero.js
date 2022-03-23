@@ -31,10 +31,10 @@ export default function Contacts() {
           </Hero.Link>
         </Hero.Column>
       </Hero.ColumnContainer>
-      <Hero.Text style={{ textAlign: 'center' }}>
-        I'd be happy to share with you more information, answer some question
+      <Hero.SubTitle style={{ textAlign: 'center' }}>
+        I'd be happy to share with you more information, answer some questions
         you might have, or just have a chat!
-      </Hero.Text>
+      </Hero.SubTitle>
     </Hero>
   )
 }
