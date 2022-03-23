@@ -50,8 +50,8 @@ export default function About() {
               potentially hostile.
             </Hero.Text>
             <Hero.Text>
-              Then, when I was hired by the medical NGO Médecins Sans
-              Frontières, I had to learn an **entirely** new position as I was
+              Then, when I was hired by the medical NGO *Médecins Sans
+              Frontières*, I had to learn an **entirely** new position as I was
               hired as a manager. Of course, my nursing skills were important to
               be able to assess my staff practices, but being a manager is a
               completely different skill set of its own. Of course, MSF has a
