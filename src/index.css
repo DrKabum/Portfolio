@@ -21,14 +21,14 @@
 
   /* font sizes */
   --fs-xl: clamp(1.5rem, 6vw + 1rem, 5rem);
-  --fs-600: 1.3rem;
+  --fs-600: 1.45rem;
   --fs-500: clamp(1rem, 2.3vw + 1rem, 2rem);
   --fs-400: 1.1rem;
 }
 
 @media (min-width: 750px) {
   :root {
-    --fs-600: 1.7rem;
+    --fs-600: 1.8rem;
     --fs-400: 1.3rem;
   }
 }
