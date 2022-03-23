@@ -27,7 +27,37 @@ export default function About() {
             </Hero.Text>
             <Hero.Text>
               If you're interested, check my projects, you'll see I even used
-              that skill when I was working for a hospital in France!
+              that skill when I was working for a hospital in France! This
+              project, called Novilog, has been a huge part of why I want to
+              become a professional developer. Learning from (almost) scratch
+              how to build an entire app and do it from start to a usable
+              product over 2 years of hard work has been such a great
+              experience.
+            </Hero.Text>
+          </Hero.Column>
+          <Hero.Column>
+            <Hero.MainTitle>
+              Enthusiatic learner, adaptable problem solver
+            </Hero.MainTitle>
+            <Hero.Text>
+              Prehospital care is *all* about being a good learner, to keep up
+              with how fast new discoveries are made in this field by science
+              and also with how fast rescue techniques evolve. But most of all,
+              you *have* to be able to solve unexpected problems, sometimes very
+              creatively, in an environment where resources are limited (you're
+              not in a hospital where supply is virtually limitless, you have
+              your bags and your ambulance or helicopter, that's all) and
+              potentially hostile.
+            </Hero.Text>
+            <Hero.Text>
+              Then, when I was hired by the medical NGO Médecins Sans
+              Frontières, I had to learn an **entirely** new position as I was
+              hired as a manager. Of course, my nursing skills were important to
+              be able to assess my staff practices, but being a manager is a
+              completely different skill set of its own. Of course, MSF has a
+              very good library of protocols and good practices guidelines (aah,
+              the importance of a good documentation, right?) and you can always
+              count on your team mates to give you support when it's needed.
             </Hero.Text>
           </Hero.Column>
           <Hero.Column>
@@ -42,6 +72,20 @@ export default function About() {
               getting hired. I know, it's a big deal, both for me than for my
               futur employer, but hey, you're here to check what I can do, so
               here we go.
+            </Hero.Text>
+          </Hero.Column>
+          <Hero.Column>
+            <Hero.MainTitle>How I trained</Hero.MainTitle>
+            <Hero.Text>All my university education is about nursing.</Hero.Text>
+            <Hero.Text>
+              After my experience (mostly PHP) with Novilog, I wanted to train
+              to modern programming and learn good practices. I took an online
+              bootcamp on [Scrimba](https://scrimba.com/) where I learned
+              frontend development (with a lot of HMTL/CSS/Javascript, and an
+              in-depth training on React), but also how to use Git properly. I
+              then took this knowledge a bit further with some projects of my
+              own and other training aside, especially on
+              [FreeCodeCamp](https://www.freecodecamp.org/).
             </Hero.Text>
           </Hero.Column>
         </Hero.ColumnContainer>
