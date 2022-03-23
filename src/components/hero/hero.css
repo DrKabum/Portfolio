@@ -64,7 +64,7 @@
 }
 
 .hero-sub-title {
-  color: var(--dark-blue);
+  color: var(--red);
 }
 
 .hero-text {
@@ -104,18 +104,28 @@
   display: block;
 }
 
-.github:hover,
-.github:focus {
+.hero-link:hover,
+.hero-link:focus {
+  text-decoration: none;
+}
+
+svg {
+  color: var(--yellow);
+  transition: color 200ms ease-in-out;
+}
+
+.github svg:hover,
+.github svg:focus {
   color: #cdd9e5;
 }
 
-.linkedin:hover,
-.linkedin:focus {
+.linkedin svg:hover,
+.linkedin svg:focus {
   color: #0a66c2;
 }
 
-.email:hover,
-.email:focus {
+.email svg:hover,
+.email svg:focus {
   color: #a10101;
 }
 

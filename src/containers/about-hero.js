@@ -37,7 +37,7 @@ export default function About() {
           </Hero.Column>
           <Hero.Column>
             <Hero.MainTitle>
-              Enthusiatic learner, adaptable problem solver
+              Enthusiatic learner, adaptable problem solver, natural team player
             </Hero.MainTitle>
             <Hero.Text>
               Prehospital care is *all* about being a good learner, to keep up
