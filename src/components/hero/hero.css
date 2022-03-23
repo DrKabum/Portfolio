@@ -1,142 +1,157 @@
 .hero {
-    min-height: calc(100vh - 7em);
-    padding: 8em 1em;
-    display: grid;
-    place-items: center;
+  min-height: calc(100vh - 7em);
+  padding: 8em 1em;
+  display: grid;
+  place-items: center;
 }
 
 .hero {
-    background: rgb(41,40,49);
-    background: radial-gradient(circle, rgba(41,40,49,1) 0%, rgba(74,122,150,1) 89%); 
+  background: rgb(41, 40, 49);
+  background: radial-gradient(
+    circle,
+    rgba(41, 40, 49, 1) 0%,
+    rgba(74, 122, 150, 1) 89%
+  );
 }
 
 .hero:nth-child(even) {
-    background: var(--light-blue);
+  background: var(--light-blue);
 }
 
 .hero-column-outter-container {
-    width: 100%;
-    max-width: var(--max-width);
+  width: 100%;
+  max-width: var(--max-width);
 }
 
 .hero-column-container,
 .hero-small-column-container {
-    display: grid;
-    gap: 1.5em;
+  display: grid;
+  gap: 1.5em;
+  margin-bottom: 2.5em;
 }
 
 .hero-column-container {
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
 }
 
 .hero-small-column-container {
-    grid-template-columns: repeat(2, minmax(5em, 1fr));
+  grid-template-columns: repeat(2, minmax(5em, 1fr));
 }
 
 @media (min-width: 30em) {
-    .hero-small-column-container {
-        grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
-    }
+  .hero-small-column-container {
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+  }
 }
 
 .all-row {
-    grid-column: 1/-1;
+  grid-column: 1/-1;
 }
 
 .hero-title {
-    color: var(--text-white);
-    font-size: var(--fs-xl);
-    font-weight: 600;
-    text-align: center;
-    margin: 0 .5em;
-    margin-bottom: .5em;
+  color: var(--text-white);
+  font-size: var(--fs-xl);
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .hero-main-title {
-    font-size: var(--fs-600);
-    color: var(--yellow);
-    margin-bottom: 1em;
+  font-size: var(--fs-600);
+  color: var(--yellow);
+  margin-bottom: 1em;
 }
 
 .hero-sub-title {
-    color: var(--dark-blue);
+  color: var(--red);
 }
 
 .hero-text {
-    font-size: var(--fs-400);
-    margin-bottom: 1em;
+  font-size: var(--fs-400);
+  margin-bottom: 1em;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 .hero:nth-child(odd) p {
-    color: var(--text-white);
+  color: var(--text-white);
 }
 
 .hero-em {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-em::before {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 80%;
-    top: 0;
-    left: 10%;
-    background: var(--red);
-    transform: skew(-15deg, -3deg);
-    z-index: -1;
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 80%;
+  top: 0;
+  left: 10%;
+  background: var(--red);
+  transform: skew(-15deg, -3deg);
+  z-index: -1;
 }
 
 .hero-link {
-    text-decoration: none;
-    color: inherit;
-    transition: color 200ms ease-in-out;
-    display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: color 200ms ease-in-out;
+  display: block;
 }
 
-.github:hover,
-.github:focus {
-    color: #cdd9e5;
+.hero-link:hover,
+.hero-link:focus {
+  text-decoration: none;
 }
 
-.linkedin:hover,
-.linkedin:focus {
-    color: #0A66C2;
+svg {
+  color: var(--yellow);
+  transition: color 200ms ease-in-out;
 }
 
-.email:hover,
-.email:focus {
-    color: #a10101;
+.github svg:hover,
+.github svg:focus {
+  color: #cdd9e5;
+}
+
+.linkedin svg:hover,
+.linkedin svg:focus {
+  color: #0a66c2;
+}
+
+.email svg:hover,
+.email svg:focus {
+  color: #a10101;
 }
 
 .hero-code {
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-    font-size: var(--fs-500);
-    text-align: center;
-    margin: 0 .7em;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: var(--fs-500);
+  text-align: center;
+  margin: 0 0.7em;
 }
 
 .carret {
-    animation-name: blink;
-    animation-timing-function: ease-in-out;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
+  animation-name: blink;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    70% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
