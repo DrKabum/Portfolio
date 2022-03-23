@@ -94,7 +94,7 @@ export default function About() {
             <Timeline.Extract>
               It was already my first change of career, sort of, as I had to
               learn an entirely new position : one of a manager. A succesful
-              change that was possible thanks to my ability to learn quick, a
+              change that was possible thanks to my ability to learn quick, and
               fit in a team rapidly.
             </Timeline.Extract>
             <Timeline.Text>
