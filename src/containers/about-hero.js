@@ -9,10 +9,11 @@ export default function About() {
         <Hero.Column>
           <Hero.Title>My journey so far</Hero.Title>
           <Hero.Text>
-            I am changing career and this is my journey from nursing to
-            development. I am an enthusiastic learner, an adaptable problem
-            solver and a natural team player. I was, and still am, always
-            looking to work in environments that reward that.
+            Hey, I'm new in the dev industry. I am actually changing career and
+            this is my journey from nursing to development. I am an enthusiastic
+            learner, an adaptable problem solver and a natural team player. I
+            was, and still am, always looking to work in environments that
+            reward that.
           </Hero.Text>
         </Hero.Column>
       </Hero.ColumnContainer>
@@ -30,20 +31,20 @@ export default function About() {
             <Timeline.Text>
               During 10 years, I've been working as a nurse in a very specific
               area of healthcare : prehospital care. Depending on where you're
-              from, you could understand it as a paramedic, or a first responder
-              but with a high level of ICU care. I was also involved and very
-              commited in the disaster response group, where I developed an app
-              to help manage operations in the context of those events (more on
-              that below). <br />
+              from, you could understand it as paramedic, or first responder but
+              the difference is we provide medicalized, critical care. I was
+              also involved and very commited in the disaster response group,
+              where I developed an app to help manage operations in the context
+              of those events (more on that below). <br />
               This kind of environment was satisfying as I'm naturally eager to
               learn. Rescue techniques evolve all the time, and medical
               breakthrough are changing practices often. You have to be very
-              reactive and proactive to have the best practices, but I loved
+              reactive and proactive to have the best practices, and I loved
               that about my job. <br />
               I also thrived in this environment because it's a place where
               teamplay must be a second nature. When you're in an intervention,
-              you only have your colleagues, but they're all you need if you're
-              playing this game right. <br />
+              you only have your colleagues, but they're all you need if you
+              work together. <br />
               This job was also about solving unexpected problems, with creative
               solutions. When working, you have limited resources (you just have
               what's in your bag and your ambulance or helicopter) and available
@@ -59,7 +60,8 @@ export default function About() {
               We were missing the tools to answer disaster events properly so I
               decided to learn code to build an app from scratch. 2 years of
               learning and development, and Novilog was born. It's still used
-              for training purposes as the hospital couldn't find a better tool.
+              there for training purposes as the hospital couldn't find a better
+              tool.
             </Timeline.Extract>
             <Timeline.Text>
               When I joined the disaster response group, I was trained to
@@ -69,22 +71,24 @@ export default function About() {
               On my first one, I was shocked to see that tracking the victims
               was still done by hand, on paper and that, this operation being
               coordinated between the field and hospitals by HQ, information
-              were transmitted by radio. Of course, the lead to many human
-              erros, misunderstandings and, at the end of the day, it was very
-              difficult to have reliable data of the operation in real time.{' '}
+              were transmitted by radio. Of course, this lead to many human
+              errors, misunderstandings and, at the end of the day, it was very
+              difficult to have reliable data of the operation in real time.
               <br />
               Of course, this situation was known as very problematic by
-              everyone, but there was basically nothing on the market
-              specialized enough to answer the needs of this kind of operation.
-              They tried some solutions with Excel or other ways but it was just
-              not very practical for people with no IT background at all. <br />
+              everyone, something automated would help, but there was basically
+              nothing on the market specialized enough, in terms of business
+              logic, to answer the needs of this kind of operation. We tried
+              some solutions with Excel and emails or other similare ways but it
+              was just not very practical for my fellow healthworkers with no IT
+              background at all. <br />
               So I decided I would build this tool myself. It took me 2 years of
-              learning (it was build with PHP-MySQL on Symfony), was tested on
-              the field on multiple training operations, and to this day, it's a
-              very good proof of concept (there would still be a lot of work to
-              do to have a proper production-ready app, so it's only used on
-              trainings with fake data). You can know more about it in the
-              project section down below.
+              learning (it was built with PHP-MySQL on the Symfony framework),
+              was tested on the field on multiple training operations, and to
+              this day, it's a very good proof of concept (there would still be
+              a lot of work to do to have a proper production-ready app, so it's
+              only used on trainings with fake data). You can know more about it
+              in the project section down below.
             </Timeline.Text>
           </Timeline.Event>
           <Timeline.Event>
@@ -95,7 +99,7 @@ export default function About() {
               It was already my first change of career, sort of, as I had to
               learn an entirely new position : one of a manager. A succesful
               change that was possible thanks to my ability to learn quick, and
-              fit in a team rapidly.
+              fit in a team rapidly, and of course, the support of a great team.
             </Timeline.Extract>
             <Timeline.Text>
               In 2017, I joined Doctors Without Borders (Médecins sans
@@ -104,24 +108,25 @@ export default function About() {
               units (ER, at first, and then In-Patient department) for a
               children hospital in the context of a seasonal malaria outbreak.
               <br />
-              Jumping to a manager position wasn't easy or natural, it's two
-              different jobs. I had to work hard, and learn quick, to be
-              efficient. But, in MSF you always work in a team that supports
+              Jumping to a manager position wasn't easy or natural, it's an
+              entirerly different job. I had to work hard, and learn quick, to
+              be efficient. But, in MSF you always work in a team that supports
               you, and there is also a very well maintained and useful library
               of protocols and guideline (the importance of a good
               documentation, right?)
               <br />
               It worked so well for me there, that before the end my fourth
-              month of mission, my supervisor had to go back home and he said I
-              could cover for him, leaving time for the HQ to find a good fit
-              for his replacement. I was "promoted" to the manager of the entire
-              hospital staff (except doctors) as he was headnurse.
+              month of mission, my supervisor, the headnurse, had to go back
+              home and he said I was fit to cover him, leaving time for the HQ
+              to find a good fit for his replacement. I was "promoted" to the
+              manager of the entire hospital staff (which was around 300
+              persons).
               <br />
               Again, adaptation abilities and quick learning was key, but I have
               to thank a very supportive and helpful team in this adventure! I
               liked this experience so much that I decided to go again in other
-              mission at the end of this one. MSF was very happy with my work in
-              South Sudan, and I then did two other mission as headnurse in
+              missions at the end of this one. MSF was very happy with my work
+              in South Sudan, and I then did two other missions as headnurse in
               Nigeria and Haiti.
             </Timeline.Text>
           </Timeline.Event>
@@ -147,15 +152,17 @@ export default function About() {
               visual, and interactive. But I also trained a little with Python,
               and some other backend technologies, like NodeJS and some
               frameworks, like express. I'm far from an expert in these domains,
-              but I loved it as well.
+              but I loved it as well and would love to get some experience in
+              backend too.
               <br />
               The initial idea was to do it for fun, I would code as a hobby or
-              for improving Novilog, or other small projects in my work. But
+              to improve Novilog, or other small projects in my work. But
               gradually, I felt like I wanted more of it.
               <br />I still have much to learn, but I feel ready to take a
-              junior position. I'm equiped with a good basic knowledge and I'm
-              very excited about the idea of learning more and more in a
-              professional team.
+              junior position. I'm equiped with a good basic knowledge, an
+              atypical background that made someone very adaptable and I'm very
+              excited about the idea of learning more and more in a professional
+              team.
             </Timeline.Text>
           </Timeline.Event>
           <Timeline.Event>
