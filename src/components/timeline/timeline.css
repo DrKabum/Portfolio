@@ -56,6 +56,12 @@
   margin-left: 2em;
 }
 
+.timeline-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-left: 2.3em;
+}
+
 .timeline-extract {
   padding-bottom: 1em;
   border-bottom: solid 1px var(--dark-blue);
@@ -65,8 +71,9 @@
   padding: 0 2em;
   height: 0;
   overflow: hidden;
-  transition: height 500ms ease-in-out;
+  transition: height 800ms ease-in-out;
   background: var(--dark-blue);
+  border-bottom-left-radius: 20px;
 }
 
 .text-toggled .timeline-text {
