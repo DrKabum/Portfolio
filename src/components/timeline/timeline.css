@@ -1,0 +1,88 @@
+.timeline {
+  --gradient-colors: var(--yellow) 0%, rgba(0, 0, 0, 0) 80%;
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 800px) {
+  .timeline {
+    width: 70%;
+  }
+}
+
+.timeline-event {
+  border-left: 10px solid var(--yellow);
+}
+
+.timeline-event:hover {
+  background-color: rgb(0, 0, 0, 0.07);
+}
+
+.timeline-end {
+  height: 6em;
+  width: 10px;
+  background: var(--yellow);
+  background: linear-gradient(0deg, var(--gradient-colors));
+}
+
+.inverted {
+  background: var(--yellow);
+  background: linear-gradient(180deg, var(--gradient-colors));
+}
+
+.timeline-title {
+  color: var(--yellow);
+  font-size: var(--fs-500);
+  position: relative;
+  padding-left: 2em;
+}
+
+.timeline-title::before {
+  content: '';
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: -18px;
+  top: 25%;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+
+.timeline-extract,
+.timeline-text {
+  line-height: 1.5;
+  color: var(--text-white);
+  font-size: var(--fs-400);
+  margin-left: 2em;
+}
+
+.timeline-extract {
+  padding-bottom: 1em;
+  border-bottom: solid 1px var(--dark-blue);
+}
+
+.timeline-text {
+  padding: 0 2em;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms ease-in-out;
+  background: var(--dark-blue);
+}
+
+.text-toggled .timeline-text {
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.btn-more {
+  display: inline;
+  margin-left: 0.4em;
+}
+
+.btn-more svg {
+  font-size: 1.1rem;
+}
+
+.fa-circle-info {
+  color: var(--text-white);
+}
