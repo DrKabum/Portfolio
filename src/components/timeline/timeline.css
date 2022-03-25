@@ -69,16 +69,15 @@
 
 .timeline-text {
   padding: 0 2em;
-  height: 0;
+  max-height: 0;
   overflow: hidden;
-  transition: height 800ms ease-in-out;
+  transition: max-height 800ms ease-in-out;
   background: var(--dark-blue);
   border-bottom-left-radius: 20px;
 }
 
 .text-toggled .timeline-text {
-  overflow-y: scroll;
-  height: 400px;
+  max-height: 1000px;
 }
 
 .btn-more {
