@@ -73,7 +73,7 @@
   padding: 0 2em;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
   background: var(--dark-blue);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -81,6 +81,7 @@
 
 .text-toggled .timeline-text {
   max-height: 1000px;
+  padding: 1.5em 2em;
 }
 
 .btn-more {
