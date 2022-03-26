@@ -6,6 +6,8 @@ I'm a new comer in the dev industry and I'm trying to showcase some of my skills
 
 It's all React. I'm using functional components, hooks, even custom ones and my components are designed in a composition pattern, so they are easily reusable and customisable accros different places.
 
+The `main` branch is the production stage, you can find it online at [this address](http://www.nicolas-broca.com)
+
 # Other libraries
 
 A this time of development, I'm using :
